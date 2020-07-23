@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="moussa titem, abdelhafid boussekine">
+    <meta name="keywords" content="coopemade, aluminium, cuisine,fenetres,portes,placards,revetement, moussa titem, abdelhafid boussekine,algerie,entreprise,finition">
+    <meta name="description" content="dans le site de l'aluminier vous trouverez tous ce qui concerne notre entreprise specialise dans les travaux de la coopemade">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>le site de l'aluminier</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/m.css">
+
+
+
+
+
+        <script>
+          $(function(){
+            $(window).scroll(function(){
+              if($(window).scrollTop()){
+                $('nav').css("background","black");
+                $('nav').css("box-shadow","1px 5px 15px black");
+                $('nav').css("z-index","7");
+                $('nav').css("height","8.5vh");
+              }
+                else {
+                  $('nav').css("background","none");
+                  $('nav').css("box-shadow","0px 0px 0px black");
+                  $('nav').css("height","9vh");
+
+
+
+            }
+
+            $(window).scroll(function(){
+
+              $('#home').css("opacity", 1 - $(window).scrollTop()/300);
+
+            }
+          );
+
+
+
+
+
+
+
+
+          });
+
+            $('.submit').click(function(){
+                var n=$('.nom');
+                var p=$('.prenom');
+                var e=$('.email');
+                var m=$('.msg');
+                if(n.val()==''|| p.val()==''|| e.val()=='' || m.val()==''){
+                  alert(`vous n'avez pas remplis toutes les information veillez reesayer`);
+                }
+                else{
+                  alert('votre message a ete bien envoye :)');
+                }
+
+            });
+
+            $('.menu').click(function(){
+              $('nav').slideToggle(400);
+
+
+
+
+            });
+
+
+
+          });
+        </script>
+
+
+
+
+
+
+
+  </head>
+  <body>
+
+    <section id="home">
+          <p>L'Aluminier ?</p>
+          <div class="hh">
+              C'est l'experience qui parle
+          </div>
+    </section>
+
+
+
+    <section id="about" >
+      <img src="images/undraw_about_me_wa29.png" class="img1" data-aos="fade-left">
+
+
+
+            <div class="contenu">
+
+                          <div class="first" data-aos="fade-up"  data-aos-duration="2000">
+                                    <h3>Qui sommes nous ?</h3>
+                                    Nous sommes une entreprise crée en 2007 par <b>TITEM Moussa</b>
+                                    qui est le pdg de cette entreprise et qui specialise dans
+                                    les traveaux de finition en aluminiaum.<br>
+                                    Nous travaillons pratiquement dans tous les wilayas de l'algerie
+                                    et surtot au Nord de pays.Nous avons un staff de plus de 50 travailleurs
+                                    qui sont plein d'experience et surtout plein de confiance.<br>
+                                    Notre entreprise se situe aux frontieres de la capitale , juste à la commune
+                                    de Hamadi ,la wilaya de Boumerdas comme indiquer çi dessous.<br>
+                                    <img src="images/c.png" width="800px" height="450px" >
+                          </div>
+
+
+                          <img src="images/undraw_searching_p5ux.png" class="img2" data-aos="fade-left">
+                        <div class="second" data-aos="fade-up" data-aos-duration="2000">
+                                    <h3>Qu'est ce qu'on fait ?</h3>
+                                    Notre entreprise est toujours en developpement et chaque jour nous penetrons un
+                                    nouveau domaine dans la construction
+                                    mais pour l'instant  elle est specialisée dans le domaine de finition en generale
+                                    mais notamment en finition interne et externe par aluminiaum
+                                    commençant par les fenetres et les porte ,placo-platre,les fond-plafond...
+                                    et arrivant jusqua'a l'installation des cuisine modernes...<br>
+                                    <br>
+                                    <br>
+                                    mais bien sur pour approfondir allez y au <a href="#services" >services</a> dans la bar de naviguation
+                                    ci-dessus pour en savoir plus sur ce qu'on fait exactement.
+                        </div>
+
+            </div>
+
+    </section>
+    <section id="services" class="panel three">
+
+                <div class="slider">
+
+                          <div class="col-sm-24">
+
+                                    	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                      <div class="carousel-item active">
+
+                                                            <img class="d-block w-100" src="images/facade2.jpg" alt="First slide">
+
+                                                            <div id="style2">
+                                                                  <h2>Revetement exterieur en metale</h2>
+                                                                  <p>revetement exterieur moderne en panneau metalique ou en panneau composé (alucobond) structure aluminium</p>
+                                                            </div>
+
+
+                                                      </div>
+
+
+                                                      <div class="carousel-item">
+                                                            <img class="d-block w-100" src="images/sep.jpg" alt="Second slide">
+
+                                                            <div id="style2">
+                                                                  <h2>Separation interne</h2>
+                                                                  <p>separation des bureaux en cloison amovible simple vitrage</p>
+                                                            </div>
+
+                                                      </div>
+                                                      <div class="carousel-item">
+                                                              <img class="d-block w-100" src="images/fenetre.jpg" alt="Third slide">
+
+                                                              <div id="style2">
+                                                                  <h2>Fenetres et portes</h2>
+                                                                  <p>des fenetres et des portes hautes gamme d'aluminium (rexal) avec volet roulant motorisation et des lammes extrudé qui mesure plus de 4m de longueur</p>
+                                                              </div>
+
+                                                      </div>
+
+                                                      <div class="carousel-item">
+                                                              <img class="d-block w-100" src="images/facade.jpg" alt="four slide">
+
+                                                              <div id="style2">
+                                                                    <h2>Revetement en verre</h2>
+                                                                    <p>revetement exterieur en verre (mur redeaux) en double vitrage et sertifier MFG</p>
+                                                              </div>
+
+                                                      </div>
+                                                      <div class="carousel-item">
+                                                            <img class="d-block w-100" src="images/ph1.jpg" alt="five slide">
+
+                                                            <div id="style3">
+                                                                  <h2>Placoplatre</h2>
+                                                                  <p>separation interne en placoplatre isolant contre la chaleur et le son avec des styles modernes</p>
+                                                            </div>
+
+                                                      </div>
+                                                      <div class="carousel-item">
+                                                              <img class="d-block w-100" src="images/cuisine2.png" alt="six slide">
+
+                                                              <div id="style2">
+                                                                    <h2>Cuisines modernes</h2>
+                                                                    <p>fabrication et installation des cuisines metaliques modernes et hautes de gamme avec des prix exceptionels </p>
+                                                              </div>
+
+                                                      </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                  <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                  <span class="sr-only">Next</span>
+                                            </a>
+                                  </div>
+                        </div>
+                </div>
+
+
+
+    </section>
+    <section id="contact" class="panel four">
+
+              <h2 class="cc" data-aos="fade-out"  data-aos-duration="2000">N'hesitez pas a nous contacter</h2>
+              <div class="inf">
+                    <i class="fab fa-facebook-messenger"></i> Aluminier <br>
+                    <i class="fab fa-facebook"></i>Aluminier <br>
+                    <i class="fab fa-google"></i>moussalum35@gmail.com <br>
+                    <i class="fas fa-phone"></i>0676601580 | 0550534396
+            </div>
+              <br>
+              <form class="inp" netlify>
+                    <span>Nom:</span>
+                     <input type="text" name="nom" class="nom">
+                     <br>
+                    <span>Prenom:</span>
+                    <input type="text" name="prenom" class="prenom">
+                    <br>
+                   <span>Email:</span>
+                    <input type="email" name="email" class="email">
+                    <br>
+                    <span class="mmm">message:</span>
+                    <textarea class="msg"></textarea><br>
+                    <input type="submit" name="envoye" value="envoyer" class="submit">
+            </form>
+
+            <div class="icons">
+                    <a href="https://www.facebook.com" class="fab fa-facebook"></a>
+                    <a href="https://www.facebook.com" class="fab fa-facebook-messenger"></a>
+                    <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+                    <a href="https://www.google.com" class="fab fa-google-plus-g"></a>
+                    <a href="https://www.skype.com" class="fab fa-skype"></a>
+                    <a href="https://www.twitter.com" class="fab fa-twitter"></a>
+                    <a href="https://www.youtube.com" class="fab fa-youtube"></a>
+                    <a href="https://www.whatsapp.com" class="fab fa-whatsapp"></a>
+
+            </div>
+    </section>
+
+    <div id="navbar">
+          <span class="logo">L'Aluminier</span>
+          <span class="menu"><i class="fas fa-bars"></i></span>
+    </div>
+    <nav>
+
+          <li><a href="#home">Acceuil</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contactez nous</a></li>
+
+    </nav>
+
+
+    <footer>www.aluminier.com 2019 realise par abdelhafid boussekine </footer>
+
+
+
+    <script>
+      AOS.init();
+    </script>
+
+
+
+  </body>
+</html>
